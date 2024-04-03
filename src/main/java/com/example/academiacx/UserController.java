@@ -10,30 +10,30 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private UserFacade userFacade;
 
     @GetMapping("/list")
     public List<User> getAllUsers(){
-        return userService.getAllUsers();
+        return userFacade.getAllUsers();
     }
 
     @GetMapping("/{id}")
     public UserService getUserById(@PathVariable Long id){
-        return userService;
+        return (UserService) userFacade;
     }
 
     @PostMapping("/save")
     public User saveUser(@RequestBody User user){
-        return userService.saveUser(user);
+        return userFacade.saveUser(user);
     }
 
     @PutMapping("/update")
     public User updateUser(@RequestBody User user){
-        return userService.updateUser(user);
+        return userFacade.updateUser(user);
     }
 
     @DeleteMapping("/delete/{id}")
     public void deleteUser(@PathVariable Long id){
-        userService.deleteUser(id);
+        userFacade.deleteUser(id);
     }
 }
