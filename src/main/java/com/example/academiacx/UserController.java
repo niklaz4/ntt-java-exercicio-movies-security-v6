@@ -1,5 +1,8 @@
 package com.example.academiacx;
 
+import com.example.academiacx.User;
+import com.example.academiacx.UserFacade;
+import com.example.academiacx.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,8 +1,8 @@
 package com.example.academiacx;
 
+import com.example.academiacx.Filme;
+import com.example.academiacx.FilmeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureOrder;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

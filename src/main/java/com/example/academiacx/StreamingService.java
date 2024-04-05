@@ -1,5 +1,7 @@
 package com.example.academiacx;
 
+import com.example.academiacx.StreamingRepository;
+import com.example.academiacx.Streaming;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

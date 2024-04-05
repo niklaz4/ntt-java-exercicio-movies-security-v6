@@ -1,5 +1,6 @@
 package com.example.academiacx;
 
+import com.example.academiacx.Filme;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

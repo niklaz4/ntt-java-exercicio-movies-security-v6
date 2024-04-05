@@ -1,5 +1,7 @@
 package com.example.academiacx;
 
+import com.example.academiacx.Ator;
+import com.example.academiacx.ActorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
